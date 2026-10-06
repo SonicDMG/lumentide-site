@@ -75,7 +75,7 @@ h3 { font-size: 0.75rem; color: var(--lumen); }
 .btn-primary:hover { color: var(--void); }
 .btn-secondary { background: var(--deep-teal); color: var(--starlight); }
 .btn-secondary:hover { color: var(--starlight); }
-.btn-soon { background: transparent; color: var(--lantern); border-color: var(--lantern); box-shadow: none; cursor: default; }
+.btn-soon { background: transparent; color: var(--lantern); border-color: var(--lantern); box-shadow: none; }
 .btn-soon:hover { transform: none; box-shadow: none; }
 
 /* Sections */
