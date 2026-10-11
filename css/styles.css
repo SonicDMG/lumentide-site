@@ -84,6 +84,10 @@ section + section { border-top: 1px solid #578f9933; }
 
 .pitch p.lead { font-size: 1.3rem; color: var(--lantern); font-style: italic; max-width: 50rem; }
 
+.trailer { text-align: center; }
+.trailer video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--void); border: 1px solid #578f9955; border-radius: 6px; }
+.trailer p { margin: 1rem 0 0; font-size: 0.85rem; }
+
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
 .card { background: #ffffff0a; border: 1px solid #578f9955; border-radius: 6px; padding: 1.5rem; }
 .card p { margin: 0.5rem 0 0; }
@@ -115,5 +119,6 @@ footer .links { display: flex; gap: 1.5rem; justify-content: center; margin-bott
 
 @media (max-width: 720px) {
   .split, .split:has(img.shot), .split-reverse:has(img.shot) { grid-template-columns: 1fr; }
+  .nav { flex-wrap: wrap; gap: 1rem; }
   .nav ul { gap: 0.9rem; }
 }
